@@ -542,11 +542,8 @@ a {
 }
 
 .footer-bg {
+  padding: 60px 0;
   background-color: var(--gray-background);
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-  border-radius: 0px;
 }
 
 .adress-list {
@@ -587,16 +584,10 @@ a {
 }
 
 /* ===========footer-plus========== */
-/* .footer-plus-icon {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+
+.footer-container {
+  margin-right: 70px;
 }
-.footer-list {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-} */
 
 .footer-all {
   display: flex;
