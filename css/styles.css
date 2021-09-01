@@ -135,7 +135,13 @@ a {
 }
 
 /* картинка телефону */
-.mail-list:hover {
+.mail-list:hover,
+.mail-list:focus {
+  color: var(--accent-color);
+}
+
+.tel-list:hover,
+.tel-list:focus {
   color: var(--accent-color);
 }
 
@@ -407,6 +413,13 @@ a {
   margin-bottom: 50px;
 }
 
+.team-number {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-number:not(:last-child) {
   margin-right: 30px;
 }
@@ -436,6 +449,7 @@ a {
   border-radius: 50%;
   background-color: #fff;
   margin-bottom: 16px;
+  fill: rgba(175, 177, 184, 1);
 }
 
 .socials-link:hover,
@@ -445,7 +459,8 @@ a {
 
 .socials-link:hover .socials-icon,
 .socials-link:focus .socials-icon {
-  fill: var(--white-color);
+  fill: white;
+  background-color: 2196f3;
 }
 
 .team-description .user {
@@ -470,6 +485,7 @@ a {
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
+  fill: 1px solid #ffffff;
 }
 
 .footer-bg {
@@ -500,11 +516,24 @@ a {
   align-items: center;
   justify-content: center;
   background-color: var(--white-color);
+  fill: rgba(175, 177, 184, 1);
 }
 
 .clients-icon:hover,
 .clients-icon:focus {
   background-color: var(--white-color);
+}
+
+.clients-icon {
+  height: 60px;
+  width: 106px;
+}
+
+.clients-item:hover,
+.clients-item:focus {
+  border: 1px solid #2196f3;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .clients-link:hover .clients-icon,
@@ -614,7 +643,9 @@ a {
   border-radius: 50%;
   background-color: #ffffff1a;
   color: #2196f3;
+  fill: rgba(255, 255, 255, 1);
 }
+
 .footer-item:not(:last-child) {
   margin-right: 10px;
 }
@@ -707,6 +738,12 @@ a {
 .project-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
+
+.project-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .title-card {
   border: 1px solid #f5f4fa;
   border-top: 0;
