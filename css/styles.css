@@ -191,10 +191,7 @@ a {
 }
 
 .contacts-list .mail-list:hover,
-.contacts-list .tel-list:hover {
-  color: var(--accent-color);
-}
-
+.contacts-list .tel-list:hover,
 .contacts-list .mail-list:focus,
 .contacts-list .tel-list:focus {
   color: var(--accent-color);
