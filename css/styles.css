@@ -124,7 +124,8 @@ a {
 
 /* ==========кОНТАКТИ============ */
 
-.mail-list:hover {
+.mail-list:hover,
+.mail-list:focus {
   color: var(--accent-color);
 }
 
@@ -135,13 +136,13 @@ a {
 }
 
 /* картинка телефону */
-.mail-list:hover,
-.mail-list:focus {
+.mail-list:hover .icon-mail,
+.mail-list:focus .icon-mail {
   color: var(--accent-color);
 }
 
-.tel-list:hover,
-.tel-list:focus {
+.tel-list:hover .icon-tel,
+.tel-list:focus .icon-tel {
   color: var(--accent-color);
 }
 
@@ -154,11 +155,6 @@ a {
 .icon-mail:focus {
   color: var(--accent-color);
 } */
-
-.tel-list:hover.icon-tel,
-.tel-list:focus.icon-tel {
-  color: var(--accent-color);
-}
 
 .contacts-list {
   display: flex;
@@ -196,6 +192,11 @@ a {
 
 .contacts-list .mail-list:hover,
 .contacts-list .tel-list:hover {
+  color: var(--accent-color);
+}
+
+.contacts-list .mail-list:focus,
+.contacts-list .tel-list:focus {
   color: var(--accent-color);
 }
 
